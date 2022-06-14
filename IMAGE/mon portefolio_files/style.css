@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    font-size: 20px;
+    background-color: #e4dccb;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    background-color: #12343d;
+    align-items: center;
+
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu ul li {
+    margin-left: 4rem;
+    list-style-type: none;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: white
+}
+
+.acceuil {
+    background: url(IMAGE/ordi.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    padding-left: 2rem;
+}
+
+.acceuil .intro h1 {
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+
+}
+
+.acceuil .intro h2 {
+    color: red;
+    text-align: center;
+    margin: 50px;
+}
+
+/* debut about*/
+#about .about-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    padding: 2rem 5rem;
+}
+
+#about img {
+    width: 300px;
+    height: 280px;
+}
+
+#about h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* debut competence*/
+
+.Comp {
+    text-align: center;
+    margin: 0 0px;
+    padding: 20px;
+}
+
+.alin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alin .comp {
+    margin: 80px;
+    padding: 10px;
+}
+
+/* debut porfolio*/
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+    padding: auto;
+}
+
+.portfolio {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    padding: 50px;
+    padding: Opx;
+}
+
+.image {
+    margin: 30px;
+    width: 80%;
+    height: 80%;
+}
+
+/* debut Contact*/
+#contact h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+#contact h2 {
+    text-align: end;
+    padding: 20px;
+    margin-right: 160px;
+}
+
+div.form {
+    display: block;
+    text-align: end;
+    padding-bottom: 20px;
+    margin-right: 130px;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.contact {
+    display: inline-block;
+    margin: auto 10px 30px 20px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+}
