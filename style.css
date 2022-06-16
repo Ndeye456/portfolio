@@ -16,6 +16,8 @@ body {
     padding: 2rem 5rem;
     background-color: #12343d;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 #menu ul {
@@ -45,13 +47,13 @@ body {
 .acceuil .intro h1 {
     color: white;
     text-align: center;
-    padding-top: 3rem;
+    padding: 120px;
 }
 
 .acceuil .intro h2 {
     color: white;
     text-align: center;
-    margin: 50px;
+
 }
 
 
