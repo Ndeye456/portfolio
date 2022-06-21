@@ -42,18 +42,52 @@ body {
     width: 100%;
     height: 600px;
     padding-left: 2rem;
+
 }
 
 .acceuil .intro h1 {
-    color: white;
-    text-align: center;
-    padding: 120px;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: abrl fatface, sans-serif;
+    text-align: left;
+
 }
 
-.acceuil .intro h2 {
-    color: white;
+.mya h1 {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    top: 50px;
 
+}
+
+.container-btns {
+    position: relative;
+    top: 10px;
+}
+
+.btns-first {
+    border: 1px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    color: #f1f1f1;
+    cursor: pointer;
+
+}
+
+.btns-first:nth-child(1) {
+    margin-right: 30px;
+}
+
+.btns-first :hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
 }
 
 
@@ -96,7 +130,6 @@ body {
     padding: 10px;
 }
 
-
 /* debut porfolio*/
 
 h1 {
@@ -127,6 +160,36 @@ p {
 #contact h1,
 h2 {
     text-align: center;
+}
+
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bull {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias {
+    width: 40px;
 }
 
 input {
@@ -162,12 +225,21 @@ input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+
 }
+
+input[type=submit]:hover {
+    transform: scale(1.5);
+    margin: 1px;
+}
+
 
 .contact {
     display: inline-block;
     margin: auto 10px 30px 20px;
 }
+
+
 
 .form {
     display: grid;
